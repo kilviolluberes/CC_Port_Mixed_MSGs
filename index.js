@@ -6,7 +6,7 @@ const generateRandomWord = (sign, status, activity) => {
     randomSignIndex = Math.floor(Math.random() * sign.length)
     randomStatusIndex = Math.floor(Math.random() * status.length)
     randomActivityIndex = Math.floor(Math.random() * activity.length)
-    console.log(`Your sign: ${sign[randomSignIndex]}`);
+    console.log(`Your sign is: ${sign[randomSignIndex]}`);
     console.log(`Your day is: ${status[randomStatusIndex]}`);
     console.log(`You should: ${activity[randomActivityIndex]} today.`);
 }
